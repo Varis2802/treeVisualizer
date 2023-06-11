@@ -1,0 +1,64 @@
+[
+    {
+      "queid": "Q1",
+      "question": "How long have you had the cough?",
+      "options": [
+        {
+          "key": "Less than 3 weeks",
+          "values": {
+            "queid": "Q2",
+            "question": "Do you have a fever?",
+            "options": [
+              {
+                "key": "Yes",
+                "values": {  }
+              },
+              {
+                "key": "No",
+                "values": {  }
+              }
+            ],
+            "level": "2"
+          }
+        },
+        {
+          "key": "3 to 8 weeks",
+          "values": {
+            "queid": "Q3",
+            "question": "Do you have a fever?",
+            "options": [
+              {
+                "key": "Yes",
+                "values": {  }
+              },
+              {
+                "key": "No",
+                "values": {  }
+              }
+            ],
+            "level": "2"
+          }
+        },
+        {
+          "key": "More than 8 weeks",
+          "values": {
+            "queid": "Q4",
+            "question": "Do you have a fever?",
+            "options": [
+              {
+                "key": "Yes",
+                "values": {  }
+              },
+              {
+                "key": "No",
+                "values": {  }
+              }
+            ],
+            "level": "2"
+          }
+        }
+      ],
+      "level": "1"
+    }
+  ]
+  
